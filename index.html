@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Vlog</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Vlog</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2 class="h2">About My Vlog</h2>
+        <p>
+          Welcome to my vlog! I share my adventures and experiences with the
+          world. Subscribe to stay updated.
+        </p>
+      </section>
+      <section id="Gallery">
+        <h2>Gallery</h2>
+        <div class="flex">
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/01.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/02.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/03.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/04.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/05.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/04.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/01.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/05.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/03.jpg" />
+          </div>
+          <div id="videoContainer" class="myVideo img-container">
+            <img class="imagetag" id="your-image-id" src="./img/02.jpg" />
+          </div>
+        </div>
+      </section>
+      <div class="display-frame" id="display-frame">
+        <img src="" id="display-img" />
+      </div>
+      <div id="formContainer"></div>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <input type="submit" value="Submit" id="btn" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Vlog</p>
+    </footer>
+    <script src="./dist/script.js"></script>
+  </body>
+</html>
