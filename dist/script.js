@@ -1,7 +1,6 @@
 "use strict";
 var _a;
 const btn = document.getElementById("btn");
-const video = document.getElementById("myVideo");
 const formName = document.querySelector("#name");
 const formEmail = document.querySelector("#email");
 const formMessage = document.querySelector("#message");
@@ -45,10 +44,3 @@ for (let i = 0; i < yourImage.length; i++) {
 displayFrame === null || displayFrame === void 0 ? void 0 : displayFrame.addEventListener("click", function () {
     this.style.display = "none";
 });
-const age = new Date().getFullYear() - new Date(845424332000).getFullYear();
-console.log(age);
-class name1 {
-    constructor() {
-        this.name = "rohan";
-    }
-}

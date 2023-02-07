@@ -1,5 +1,4 @@
 const btn = document.getElementById("btn") as HTMLButtonElement;
-const video = document.getElementById("myVideo") as HTMLAudioElement;
 const formName = document.querySelector("#name") as HTMLInputElement;
 const formEmail = document.querySelector("#email") as HTMLInputElement;
 const formMessage = document.querySelector("#message") as HTMLInputElement;
